@@ -1,0 +1,154 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: darkgray;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    align-items: center;
+
+}
+
+header {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    opacity: 1;
+    margin-right: auto;
+    background-color: darkgray;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+nav a {
+    color: gray;
+    margin: 10px;
+    height: 100%;
+}
+
+header img {
+    height: 50px;
+}
+
+.highlight {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-size: 100% 100%;
+    height: 700px;
+    width: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 10px;
+}
+
+.main-head {
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+
+.tea-month {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.teas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.teatype {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0px;
+    width: 300px;
+}
+
+.teatype img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+.teatype h5 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-size: 100% 100%;
+    height: 500px;
+    margin: 15px;
+    padding: 40px;
+}
+
+.locations h2 {
+    text-align: center;
+}
+
+.locating {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer h5 {
+    margin: 15px;
+}
+
+.copyright {
+    margin-right: auto;
+    margin-left: 20px;
+}
